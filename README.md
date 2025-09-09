@@ -57,6 +57,7 @@ The RORem dataset are now available at [LetsThink/RORem_dataset](https://hugging
 | RORem&RORD | [Google cloud](https://drive.google.com/file/d/1sE6IOhHNCKiwFLW4a2ZWcwU4_bhvGcSA/view?usp=sharing) (73.15GB) |
 | Mulan      | [Google cloud](https://drive.google.com/file/d/1-dX5GfxyGEGBSfFeBgl5vMH9ODdCpbuq/view?usp=sharing) (3.26GB) |
 | Final HR   | [Google cloud](https://drive.google.com/file/d/1S3p_yLjPuhZbh7S15actNaAOEPvUlW5C/view?usp=sharing) (7.9GB) |
+| Test Set   | [Huggingface](https://huggingface.co/datasets/LetsThink/RORem_dataset/resolve/main/testset_RORem.tar.gz) (811MB) |
 
 Please note that we employed the SafeStableDiffusionSafetyChecker to filter out inappropriate content, which may result in minor discrepancies between the final image-text pairs and those presented in the original paper.
 

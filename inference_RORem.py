@@ -75,7 +75,6 @@ def main(args):
     pipe_edit = AutoPipelineForInpainting.from_pretrained(
         pretrain_path,
         torch_dtype=torch.float16, 
-        variant="fp16"
     )
 
     # load RORem Unet

@@ -82,8 +82,7 @@ def main(args):
     # Step 1: load pretrained SDXL-inpainting model
     pipe_edit = AutoPipelineForInpainting.from_pretrained(
         pretrain_path,
-        torch_dtype=torch.float16, 
-        variant="fp16"
+        torch_dtype=torch.float16,
     )
 
     # Step 2: load RORem Unet

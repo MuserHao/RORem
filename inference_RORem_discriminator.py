@@ -70,7 +70,7 @@ def parse_args():
 def main(args):
     # load Pipeline
     pipeline = StableDiffusionXLDiscriminatorPipeline.from_pretrained(
-        args.pretrained_model,variant="fp16",torch_dtype=torch.float16
+        args.pretrained_model,torch_dtype=torch.float16
     ).to("cuda")
 
     # initail Unet part
